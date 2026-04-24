@@ -78,6 +78,23 @@
             opacity: 0.05;
         }
 
+        /* Hide video controls */
+        .video-background video::-webkit-media-controls {
+            display: none !important;
+        }
+
+        .video-background video::-webkit-media-controls-enclosure {
+            display: none !important;
+        }
+
+        .video-background video::-webkit-media-controls-panel {
+            display: none !important;
+        }
+
+        .video-background video::-webkit-media-controls-play-button {
+            display: none !important;
+        }
+
         /* Animated background particles */
         .bg-animation {
             position: fixed;
